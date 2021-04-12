@@ -25,3 +25,7 @@ hs_err_pid*
 # Eclipse Project Metadata
 .classpath
 .project
+
+# certificate
+keystore
+java.policy.applet
