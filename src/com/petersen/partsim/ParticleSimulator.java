@@ -165,6 +165,9 @@ public class ParticleSimulator extends Applet implements KeyListener
     });
     
     addKeyListener(this);
+    setFocusable(true);
+    requestFocusInWindow();
+    setFocusTraversalKeysEnabled(false);
   }
   
   /** 
